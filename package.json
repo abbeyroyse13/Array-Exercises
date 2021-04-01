@@ -1,21 +1,21 @@
 {
-  "name": "nss-js-exercises",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/plugin-transform-modules-commonjs": "^7.9.0",
-    "babel-jest": "^25.3.0",
-    "jest": "^25.3.0"
-  },
-  "scripts": {
-    "test": "jest tests/*.js"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "nss-js-exercises",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "test": "tests"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/core": "^7.9.0",
+        "@babel/plugin-transform-modules-commonjs": "^7.9.0",
+        "babel-jest": "^25.3.0",
+        "jest": "^25.3.0"
+    },
+    "scripts": {
+        "test": "jest tests/filter.spec.js tests/find.spec.js tests/map.spec.js"
+    },
+    "author": "",
+    "license": "ISC"
 }
